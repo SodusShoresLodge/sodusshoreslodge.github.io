@@ -1,0 +1,211 @@
+/*Global Page Styles*/
+body {
+	background-color:#a7c1f2;
+	font-family: 'Piazzolla';
+	margin:5%;
+	margin-top:0%;
+	margin-bottom:0%;
+}
+dl {
+	margin-left:50%;
+}
+
+h1 {
+	margin-left:60%;
+	font-size:200%;
+}
+h2 {
+	margin-left:58.5%;
+}
+
+p {
+	font-size:130%;
+	margin-left:35%;
+}
+p.low {
+	margin-left:5%;
+}
+a:visited {
+	color:white;
+}
+
+/*Images Classes*/
+img.banner{
+	margin:0%;
+	padding:0px;
+	width:100%;
+}
+img.room {
+	float:right;
+	height:300px;
+	margin:0%;
+	padding:0%;
+	border-radius: 8px;
+}
+figure img {
+	width:50%;
+	margin-left:20%;
+}
+figcaption{
+	margin-left:64%;
+	color:white;
+	font-size:150%;
+}
+
+/*Navigation Styles*/
+ul {
+  float:left;
+  list-style-type: none;
+  margin:5%;
+  padding: 0;
+  width: 20%;
+  position: static;
+}
+li a {
+  display: block;
+  color: white;
+  padding: 5% 10%;
+  text-decoration: none;
+}
+li {
+  text-align: left;
+  border: 1px solid #555;
+  border-radius: 8px;
+  background-color: #6392eb;
+}
+li a.active {
+  background-color: #f2f7ff;
+  color: #6392eb;
+  border: 2px solid #555;
+  border-radius: 8px;
+}
+li a:hover:not(.active) {
+  background-color: #555;
+  color: white;
+  border: 1px solid #556;
+  border-radius: 8px;
+}
+
+/*Homepage Rollovers*/
+.container {
+  position: absolute;
+  margin-left:72%;
+  padding:0px;
+  height:300px;
+  width:16%;
+}
+img.homePage{
+	height:300px;
+	border-radius: 8px;
+	padding: 2px;
+}
+
+.image {
+	height:300px;
+	border-radius: 8px;
+	padding: 2px;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height:300px;
+  width:auto;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #82a7ed;
+  border-radius: 8px;
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+/*Rooms Page Specific Styles*/
+div.room{
+	margin:7%;
+	padding:1%;
+}
+div.room h1 {
+	font-size:150%;
+	margin-left:5%;
+}
+
+/*Contact Page Specific Styles*/
+div.contact{
+	margin:4%;
+	padding:1%;
+}
+div.contact h1 {
+	margin-left:40%;
+	font-size:150%;
+}
+div.contact h2 {
+	color: #e8736b;
+	margin-left:65%;
+	font-size:150%;
+}
+
+/*About Page Specific Styles*/
+div.about{
+	margin:0%;
+	padding:0%;
+}
+div.about h1 {
+	margin-left:5%;
+	font-size:150%;
+}
+div.about h2 {
+	margin-left:20%;
+	font-size:130%;
+}
+div.about p {
+	margin-left:10%;
+}
+div.about img {
+	margin-left:5%;
+	height:300px;
+	border-radius: 8px;
+}
+
+/*Book Now Page Specific Styles*/
+div.bookForm {
+	margin:0%;
+	padding:0%;
+}
+div.bookForm h1{
+	margin-left:5%;
+	font-size:150%;
+}
+/*Footer Styles and Formatting*/
+div.footer {
+   position: static;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: #82a7ed;
+   color: white;
+   text-align: center;
+}
+div.footer h1 {
+	margin-left:0%;
+	margin-bottom:1%;
+	font-size:140%;
+}
+div.footer h2 {
+	margin-left:0%;
+	margin-bottom:1%;
+	font-size:100%;
+}
