@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html>
+	<head>
+        <meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="assets/css/style.css">
+		<link href='https://fonts.googleapis.com/css?family=Piazzolla' rel='stylesheet'>
+		<link rel="icon" href="assets/images/logos/Full_wPhone_Transparent.png">
+        <title>
+			Sodus Shores Lodge
+		</title> 
+    </head>
+<body>
+
+<h2>Responsive Form</h2>
+<p>Resize the browser window to see the effect. When the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other.</p>
+
+<div class="bookForm">
+  <form action="https://formspree.io/f/xknppwng" method="POST">
+
+<!-- Personal Info -->  
+  <div class="row">
+    <div class="col-25">
+      <label for="fname">First Name</label>
+    </div>
+    <div class="col-75">
+      <input type="text" id="fname" name="firstname" placeholder="Your name..">
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-25">
+      <label for="lname">Last Name</label>
+    </div>
+    <div class="col-75">
+      <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+    </div>
+  </div>
+  
+  <br><br>
+  
+  <div class="row">
+    <div class="col-25">
+      <label for="address">Home Address</label>
+    </div>
+    <div class="col-75">
+      <input type="text" id="address" name="address" placeholder="1234 Street Name Dr..">
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-25">
+      <label for="city">City</label>
+    </div>
+    <div class="col-75">
+      <input type="text" id="city" name="city" placeholder="Sodus Point..">
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-25">
+      <label for="state">State</label>
+    </div>
+    <div class="col-75">
+      <select id="state" name="state">
+        <option value="AL">Alabama</option>
+		<option value="AK">Alaska</option>
+		<option value="AZ">Arizona</option>
+		<option value="AR">Arkansas</option>
+		<option value="CA">California</option>
+		<option value="CO">Colorado</option>
+		<option value="CT">Connecticut</option>
+		<option value="DE">Delaware</option>
+		<option value="DC">District Of Columbia</option>
+		<option value="FL">Florida</option>
+		<option value="GA">Georgia</option>
+		<option value="HI">Hawaii</option>
+		<option value="ID">Idaho</option>
+		<option value="IL">Illinois</option>
+		<option value="IN">Indiana</option>
+		<option value="IA">Iowa</option>
+		<option value="KS">Kansas</option>
+		<option value="KY">Kentucky</option>
+		<option value="LA">Louisiana</option>
+		<option value="ME">Maine</option>
+		<option value="MD">Maryland</option>
+		<option value="MA">Massachusetts</option>
+		<option value="MI">Michigan</option>
+		<option value="MN">Minnesota</option>
+		<option value="MS">Mississippi</option>
+		<option value="MO">Missouri</option>
+		<option value="MT">Montana</option>
+		<option value="NE">Nebraska</option>
+		<option value="NV">Nevada</option>
+		<option value="NH">New Hampshire</option>
+		<option value="NJ">New Jersey</option>
+		<option value="NM">New Mexico</option>
+		<option value="NY">New York</option>
+		<option value="NC">North Carolina</option>
+		<option value="ND">North Dakota</option>
+		<option value="OH">Ohio</option>
+		<option value="OK">Oklahoma</option>
+		<option value="OR">Oregon</option>
+		<option value="PA">Pennsylvania</option>
+		<option value="RI">Rhode Island</option>
+		<option value="SC">South Carolina</option>
+		<option value="SD">South Dakota</option>
+		<option value="TN">Tennessee</option>
+		<option value="TX">Texas</option>
+		<option value="UT">Utah</option>
+		<option value="VT">Vermont</option>
+		<option value="VA">Virginia</option>
+		<option value="WA">Washington</option>
+		<option value="WV">West Virginia</option>
+		<option value="WI">Wisconsin</option>
+		<option value="WY">Wyoming</option>
+      </select>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-25">
+      <label for="zip">Zipcode</label>
+    </div>
+    <div class="col-75">
+      <input type="text" id="zip" name="zip" placeholder="12345..">
+    </div>
+  </div>
+  
+  <br><br>
+<!-- Contact Info -->  
+  <div class="row">
+    <div class="col-25">
+      <label for="phone">Phone Number</label>
+    </div>
+    <div class="col-75">
+      <input type="text" id="phone" name="phone" placeholder="(123)456-7890..">
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-25">
+      <label for="canText">Can We Text This Number?</label>
+    </div>
+    <div class="col-75">
+      <input type="checkbox" id="canText" name="canText">
+	  <label> Check for Yes </label>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-25">
+      <label for="email">Email Address</label>
+    </div>
+    <div class="col-75">
+      <input type="text" id="email" name="email" placeholder="email@gmail.com..">
+    </div>
+  </div>
+  
+  <br><br>
+  <div class="row">
+    <div class="col-25">
+      <label for="checkIn">Desired Check-In</label>
+    </div>
+    <div class="col-75">
+      <input type="date" id="checkIn" name="checkIn">
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-25">
+      <label for="checkOut">Desired Check-Out</label>
+    </div>
+    <div class="col-75">
+      <input type="date" id="checkOut" name="checkOut">
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-25">
+      <label for="guests">Number of Guests</label>
+    </div>
+    <div class="col-75">
+      <input type="number" id="guests" name="guests">
+    </div>
+  </div>
+<!-- Final Questions and Submit -->  
+  <div class="row">
+    <div class="col-25">
+      <label for="subject">Any Additional Questions</label>
+    </div>
+    <div class="col-75">
+      <textarea id="subject" name="subject" placeholder="Anything more you would like to know?" style="height:200px"></textarea>
+    </div>
+  </div>
+  <div class="row">
+    <input type="submit" value="Submit">
+  </div>
+  </form>
+</div>
+
+</body>
+</html>

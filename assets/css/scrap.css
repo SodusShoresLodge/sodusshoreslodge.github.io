@@ -1,0 +1,126 @@
+/*Images Classes*/
+img.banner{
+	margin:0%;
+	padding:0px;
+	width:100%;
+}
+img.room {
+	float:right;
+	height:300px;
+	margin:0%;
+	padding:0%;
+	border-radius: 8px;
+}
+figure img {
+	width:50%;
+	margin-left:20%;
+}
+figcaption{
+	margin-left:64%;
+	color:white;
+	font-size:150%;
+}
+
+/*Homepage Rollovers*/
+.container {
+  position: absolute;
+  margin-left:72%;
+  padding:0px;
+  height:300px;
+  width:16%;
+}
+img.homePage{
+	height:300px;
+	border-radius: 8px;
+	padding: 2px;
+}
+
+.image {
+	height:300px;
+	border-radius: 8px;
+	padding: 2px;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height:300px;
+  width:auto;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #82a7ed;
+  border-radius: 8px;
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+/*Rooms Page Specific Styles*/
+div.room{
+	margin:7%;
+	padding:1%;
+}
+div.room h1 {
+	font-size:150%;
+	margin-left:5%;
+}
+
+/*Contact Page Specific Styles*/
+div.contact{
+	margin:4%;
+	padding:1%;
+}
+div.contact h1 {
+	margin-left:40%;
+	font-size:150%;
+}
+div.contact h2 {
+	color: #e8736b;
+	margin-left:65%;
+	font-size:150%;
+}
+
+/*About Page Specific Styles*/
+div.about{
+	margin:0%;
+	padding:0%;
+}
+div.about h1 {
+	margin-left:5%;
+	font-size:150%;
+}
+div.about h2 {
+	margin-left:20%;
+	font-size:130%;
+}
+div.about p {
+	margin-left:10%;
+}
+div.about img {
+	margin-left:5%;
+	height:300px;
+	border-radius: 8px;
+}
+
+/*Book Now Page Specific Styles*/
+div.bookForm {
+	margin:0%;
+	padding:0%;
+}
+div.bookForm h1{
+	margin-left:5%;
+	font-size:150%;
+}
