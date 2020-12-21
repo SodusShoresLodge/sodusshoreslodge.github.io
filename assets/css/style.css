@@ -248,7 +248,7 @@ figcaption{
 	}
 
 /*MOBILE STYLES*/
-	@media only screen and (max-width: 700px) {
+	@media only screen and (max-width: 600px) {
 		.grid-container {
 			display: grid;
 			grid-template-areas: 'head  head' 
@@ -291,12 +291,14 @@ figcaption{
 	/*Nav Bar Styles*/
 		.navBar {
 			grid-area: nav;
+			max-width: 500px;
+			min-width: 300px;
 		}
 	/*Side Nav Content Styles*/
 		.content {
 			grid-area: cont;
-			max-width: 700px;
-			min-width: 600px;
+			max-width: 500px;
+			min-width: 400px;
 			padding: 5%;
 		}
 		.content h1 {
@@ -335,7 +337,7 @@ figcaption{
 			background-color: #82a7ed;
 			color: white;
 			text-align: center;
-			max-width: 700px;
-			min-width: 600px;
+			max-width: 600px;
+			min-width: 300px;
 		}
 	}
