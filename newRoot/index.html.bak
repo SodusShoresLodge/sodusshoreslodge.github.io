@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="assets/css/style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Lora&display=swap" rel="stylesheet">
+        <title>Sodus Shores Lodge</title>
+    </head>
+    <body>
+    <!-- Nav Start -->
+        <div class="homeHead">
+            <img src="assets/imgs/logo.png">
+            <div class="homeNav">
+                <a href="index.html">       <button>Home     </button></a>
+                <a href="parks.html">       <button>Rooms    </button></a>
+                <a href="food.html">        <button>Contact  </button></a>
+                <a href="wineries.html" >   <button>About    </button></a>
+                <a href="visitSurvey.html"> <button>Inquire  </button></a>
+            </div>
+        </div>
+    <!-- Nav End -->
+
+    <!-- Mobile Nav Start -->
+        <div id="navHead">
+            <a href="index.html"><img src="assets/imgs/logo.png" alt="Canandaigua Chosen Spot Logo"></a>
+            <button onclick="dropDownShow()" class="dropDownButton">&#9776;</button>
+        </div>
+        <div id="dropDownContent" class="content">
+            <div class="dropPanel"><a href="parks.html">       Parks</a></div>
+            <div class="dropPanel"><a href="food.html">        Restaurants</a></div>
+            <div class="dropPanel"><a href="wineries.html">    Wineries</a></div>
+            <div class="dropPanel"><a href="skiing.html">      Skiing</a></div>
+            <div class="dropPanel"><a href="hiking.html">      Hiking</a></div>
+            <div class="dropPanel"><a href="visitSurvey.html"> Feedback</a></div>
+        </div>
+    <!-- Mobile Nav End -->
+
+    <!-- Start Home Body -->
+        <div class="contentBody">
+            <h1> Welcome to the Sodus Shores Lodge Website!</h1>
+            <div class="homeMessage">
+            <img src="assets/imgs/lodgeFront.jpg">
+            <p>
+                Starting in 2021 the Sodus Shores Lodge is officially under new ownership! We are still currently getting 
+                on our feet but this is the new website. Located right in the middle of Greig St., we are conveniently 
+                right in the middle of everything to do right on Sodus Point. This means we're in walking distance of all 
+                of the great restaurants, stores that the point has to offer. Just want to relax? We are also in walking 
+                distance of the vast beach and historic Sodus Point Lighthouse. Below is a video of your walk/drive to the beach.
+            </p>
+            <p>
+                Currently, we have four different rooms to rent with a fifth coming very soon. To find out more about our different 
+                rooms and amenities please check out the rooms page of our website. Keep in mind we are working on becoming more 
+                tech-friendly so our book now page will help you get in contact with a Sodus Shores Employee to get an official 
+                booking set in stone.
+            </p>
+            </div>
+            
+        </div>
+    <!-- End Home Body -->
+    <!-- Start Footer -->
+        <footer>
+            <h2> 8538 Greig Street, Sodus Point, New York, 14555 </h2>
+            <h2> Colucci 2020 © </h2>
+        </footer>
+    <!-- End Footer -->
+    </body>
+</html>
