@@ -77,12 +77,53 @@
                     need. The bathroom is right down the hall and is located near the front door.
                 </p>
             </div>
+        <!-- Room 2 -->
+            <div class="room">
+                <img src="assets/imgs/room2.jpg">
+                <h1> Room 2: </h1>
+                <p>
+                    Room 2 has one queen bed and a single bed with all the listed amenities. Pictured 
+                    to the right it can sleep one to three people comfortably. The bathroom is also right 
+                    down the hall and is also located near the front door.
+                </p>
+            </div>
+        <!-- Room 3 -->
+            <div class="room">
+                <img src="assets/imgs/room2.jpg">
+                <h1> Room 3: </h1>
+                <p>
+                    Room 3 along with the other amenities has a queen bed, a single bed, and a sink in the 
+                    room. This is the only room with a sink and mirror inside making it easier to wash up 
+                    quickly, brush your teeth, or do anything else you would need to all in your own room. 
+                    This room is also conveniently located next to the bathroom and is down the hall a little 
+                    ways from the front door.
+                </p>
+            </div>        
+        <!-- Room 4 -->
+            <div class="room">
+                <img src="assets/imgs/room2.jpg">
+                <h1> Room 4: </h1>
+                <p>
+                    Room 4 comes with all the other amenities, a queen bed, and a single bed. Located just 
+                    down the hall from the bathroom and furthest from the front door. This room is furthest 
+                    from the front door which provides it with a little bit more privacy than the other rooms.
+                </p>
+            </div>        
+        <!-- Bathrooms -->
+            <div class="room">
+                <img src="assets/imgs/room2.jpg">
+                <h1> Restrooms: </h1>
+                <p>
+                    In the middle of all four rooms, there are men and women's bathrooms. They both include a 
+                    shower and towels.
+                </p>
+            </div>
         </div>
     <!-- End Home Body -->
     <!-- Start Footer -->
         <footer>
             <h2> 8538 Greig Street, Sodus Point, New York, 14555 </h2>
-            <h2> Colucci 2020 © </h2>
+            <h2> Colucci 2022 © </h2>
         </footer>
     <!-- End Footer -->
     </body>
