@@ -182,12 +182,6 @@ body {
     .aboutArticle p{
         padding:2em;
     }
-    .aboutArticle img{
-        float:right;
-        height:100%;
-        width:auto;
-        border-radius: 10px;
-    }
     footer {
         margin-top:3em;
         margin-left:auto;
@@ -284,37 +278,41 @@ body {
 /* ======================================Media Queries====================================== */
 @media screen and (max-width: 1200px) {/* 1200px and Below */
 /* All Nav Bar Styles */
+    .homeHead {
+        display:none;
+    }
     nav {
         display:none;
     }
     #navHead {
         display:inline-block;
-        background-color:white;
-        border-radius: 5px;
         width: 100%;
-        height:6em;
+        height:10em;
     }
     #navHead img{
         max-width: 11em;
         height: auto;
-        margin-top:1em;
-        margin-left:1em;
-        float: left;
+        margin-top:auto;
+        margin-right:10em;
+        margin-left:auto;
     }
     .dropDownButton{
-        float:right;
-        height:100%;
-        width:30%;
+        background-color:#0380a0;
+        border: 0.25em solid #0380a0;
+        float:left;
+        height:5em;
+        width:100%;
     }
     .content {
         display:none;
+        margin-top:2em;
         position:relative;
         text-align:center;
         width:100%;
     }
     .dropPanel {
         display:block;
-        background-color:white;
+        background-color: #828282;
         border-radius: 5px;
         width:60%;
         height:3em;
@@ -322,11 +320,13 @@ body {
         margin-left:auto;
         margin-right:auto;
         line-height:3em;
+        box-shadow: 2px 2px 3px black;
     }
     .dropPanel a{
         font-size:1.5em;
         text-decoration:none;
-        color: #19a44c;
+        text-shadow:1px 1px 2px black;
+        color: white;
         display: inline-block;
         width: 100%;
         height: 100%;
@@ -336,105 +336,80 @@ body {
     }
 /* End Nav Bar Styles */
 
-/* Start Main Pages Content Styles */
-    .slideshow {
-        width: 100%;
-        height: auto;
-        margin-top:2em;
-        margin-bottom:2em;
+/* Start Main Content Styles */
+    .contentBody h1{
+        font-size:30px;
     }
-   .titleBox h1 {
-        font-size: 2em;
-    }
-    .titleBox h2 {
-        font-size: 1.5em;
-        text-shadow: 0px 0px 0px;
-    }
-    .titleBox p{
-        font-size: 1em;
-    }
-    .parallax {
-        display:none;
-    }    
-    .exploreButtons {
-        display:none;
-    }
-    .bannerHead h1 {
-        all:initial;
-        font-family: 'Cabin';
-        color:#f9b335;
-        font-size:2.5em;
-        text-align:center;
-        text-shadow: 1px 1px 1px black;
-        display:block;
-    }    
-    .bannerHead h2 {
-        all:initial;
-        font-family: 'Cabin';
-        color:#f9b335;
-        font-size:2.5em;
-        text-align:center;
-        text-shadow: 1px 1px 1px black;
-        display:block;
-    }
-    .bannerHead h3 {
-        all:initial;
-        font-family: 'Cabin';
-        display:block;
-        color:#f9b335;
-        font-size:1.5em;
-        text-align:center;
-        text-shadow: 1px 1px 1px black;
-    }
-    .bannerHead h4 {
-        all:initial;
-        font-family: 'Cabin';
-        color:#5d3286;
-        font-size:2.5em;
-        text-align:center;
-        text-shadow: 1px 1px 1px black;
-        display:block;
-    }
-    .bannerHead p{
-        font-size:1.25em;
-    }
-    .button {
-        margin-left:auto;
-        margin-right:auto;
-    }
-    .portrait {
-        height: 20em;
-        float:left;
-        margin-bottom:2em;
-        border-radius: 2em;
-        box-shadow: 5px 5px 5px #949494;
-}
-    .refrences {
-        font-size:0.75em;
-    }
-    .refrences td img{
-        display:none;
-    }
-    .img {
-        display:none;
-    }
-/* End Main Pages Content Styles */
-
-/* Start Form Styles */
-    .formBox h1 {
-        padding: 1em;
-        text-align:center;
-    }
-    .formBox input{
-        margin:0.3em;
-        padding:0.5em;
+    .contentBody img{
+        width:100%;
         margin-bottom:1em;
     }
-    .astric {
+    .centerPageText {
+        width:100%;
+    }
+    .centerPageText h2{
         font-size:25px;
     }
-/* End Form Styles */
+    .centerPageText h3{
+        font-size:20px;
+    }
+    .centerPageText p{
+        font-size:15px;
+    }
+    .room{
+        margin: 2em;
+        border: 0.25em solid #828282;
+        border-radius: 10px;
+        padding: 5px;
+        height: 35em;
+    }
+    .room h1{
+        text-align:left;
+        margin-left:1.5em;
+        color:#0380a0;
+        font-size:25px;
+    }
+    .room p{
+        font-size:15px;
+    }
+    .room img{
+        float:right;
+        width:100%;
+        height:auto;
+        border-radius: 10px;
+    }
+    .aboutArticle{
+        margin-left:5px;
+        width:95%;
+    }
+    .aboutArticle h1{
+        font-size:25px;
+    }
+    .aboutArticle p{
+        
+    }
+/* End Main Content Styles */
 
+/* Page Slideshow Styles */
+    /* Slideshow container */
+    .slideshow-container {
+        width:100%;
+        padding:0;
+        height:auto;
+    }
+    /* Next & previous buttons */
+    .prev, .next {
+        position: revert;
+        display:inline-block;
+        border-radius: 3px 3px 3px 3px;
+        width: auto;
+        padding: 15px 40px 15px 40px;
+        margin-top:-10px;
+    }
+    /* Position the "next button" to the right */
+    .next {
+        margin-left:180px;
+    }
 /* Start Footer Styles */
     footer a{
         padding: 1em;
