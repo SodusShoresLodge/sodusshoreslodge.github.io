@@ -205,10 +205,16 @@ body {
 /* Page Slideshow Styles */
     /* Slideshow container */
     .slideshow-container {
+        position: relative;
         float:right;
         width:30em;
         padding:1em;
         height:auto;
+    }
+    .buttonsDiv {
+        position: relative;
+        width:100%;
+        top: 50%;
     }
     /* Next & previous buttons */
     .prev, .next {
@@ -217,7 +223,6 @@ body {
         position: absolute;
         width: auto;
         padding: 20px;
-        margin-top: 175px;
         color: #828282;
         font-weight: bold;
         font-size: 18px;
@@ -227,8 +232,14 @@ body {
     }
     /* Position the "next button" to the right */
     .next {
-      margin-left: 431px;
-      border-radius: 3px 0 0 3px;
+        right: 5%;
+        transform: translate(50%, -350%);
+        -ms-transform: translate(-50%, -50%);
+    }
+    .prev {
+        left: 5%;
+        transform: translate(-50%, -350%);
+        -ms-transform: translate(-50%, -50%);
     }
     /* On hover, add a black background color with a little bit see-through */
     .prev:hover, .next:hover {
@@ -362,6 +373,9 @@ body {
         border-radius: 10px;
         padding: 5px;
         height: 35em;
+        width:90%;
+        margin-left:auto;
+        margin-right:auto;
     }
     .room h1{
         text-align:left;
@@ -378,15 +392,20 @@ body {
         height:auto;
         border-radius: 10px;
     }
+    .buttonsDiv {
+        
+    }
     .aboutArticle{
-        margin-left:5px;
-        width:95%;
+        height:auto;
+        margin-left:auto;
+        margin-right:auto;
+        width:97%;
     }
     .aboutArticle h1{
         font-size:25px;
     }
     .aboutArticle p{
-        
+        font-size:18px;
     }
 /* End Main Content Styles */
 
@@ -398,17 +417,18 @@ body {
         height:auto;
     }
     /* Next & previous buttons */
-    .prev, .next {
-        position: revert;
-        display:inline-block;
-        border-radius: 3px 3px 3px 3px;
-        width: auto;
-        padding: 15px 40px 15px 40px;
-        margin-top:-10px;
+    .next{
+        right:7%;
+        transform: translate(50%, -130%);
+        -ms-transform: translate(-50%, -50%);
     }
-    /* Position the "next button" to the right */
-    .next {
-        margin-left:180px;
+    .prev{
+        left:-7%;
+        transform: translate(50%, -130%);
+        -ms-transform: translate(-50%, -50%);
+    }
+    .contentBody iframe{
+        width:100%;
     }
 /* Start Footer Styles */
     footer a{
